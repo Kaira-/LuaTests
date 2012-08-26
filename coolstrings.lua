@@ -39,8 +39,8 @@ function getChar(char, line)
 		else return " GGGGG   ";
 		end;
 	elseif char == 'H' then
-		if line == 1 or line == 2 or line == 4 or line == 5 then return "HH  HH  ";
-		else return "HHHHHH  ";
+		if line == 3 then return "HHHHHH  ";
+		else return "HH  HH  ";
 		end;
 	elseif char == 'I' then return "II  ";
 	elseif char == 'J' then
